@@ -7,8 +7,10 @@
   font-size: 62.5%;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .mask {
@@ -22,8 +24,8 @@ html, body {
   z-index: 2;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .mask.active {
@@ -147,8 +149,8 @@ html, body {
   right: -250px;
   top: 0;
   background-color: #f67c92;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   z-index: 2;
 }
 
@@ -179,7 +181,8 @@ html, body {
   }
 }
 
-#about, #offer {
+#about,
+#offer {
   padding: 100px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,69 +194,81 @@ html, body {
       flex-wrap: wrap;
 }
 
-#about .about-left-col, #offer .about-left-col {
+#about .about-left-col,
+#offer .about-left-col {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
 
 @media screen and (max-width: 770px) {
-  #about .about-left-col, #offer .about-left-col {
+  #about .about-left-col,
+  #offer .about-left-col {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
 }
 
-#about .about-left-col img, #offer .about-left-col img {
+#about .about-left-col img,
+#offer .about-left-col img {
   width: 100%;
 }
 
-#about .about-right-col, #offer .about-right-col {
+#about .about-right-col,
+#offer .about-right-col {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   text-align: right;
 }
 
 @media screen and (max-width: 770px) {
-  #about .about-right-col, #offer .about-right-col {
+  #about .about-right-col,
+  #offer .about-right-col {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
 }
 
-#about .about-right-col .about-text, #offer .about-right-col .about-text {
+#about .about-right-col .about-text,
+#offer .about-right-col .about-text {
   max-width: 500px;
   margin-right: 100px;
   display: inline-block;
 }
 
 @media screen and (max-width: 770px) {
-  #about .about-right-col .about-text, #offer .about-right-col .about-text {
+  #about .about-right-col .about-text,
+  #offer .about-right-col .about-text {
     margin: 50px 50px 0;
     display: inline-block;
   }
 }
 
-#about .about-right-col .about-text h1, #offer .about-right-col .about-text h1 {
+#about .about-right-col .about-text h1,
+#offer .about-right-col .about-text h1 {
   font-size: 3rem;
 }
 
-#about .about-right-col .about-text p, #offer .about-right-col .about-text p {
+#about .about-right-col .about-text p,
+#offer .about-right-col .about-text p {
   font-size: 1.5rem;
 }
 
-#about .about-right-col .about-text h2, #offer .about-right-col .about-text h2 {
+#about .about-right-col .about-text h2,
+#offer .about-right-col .about-text h2 {
   font-size: 2.5rem;
   margin: 50px 10px 10px;
   font-style: italic;
 }
 
 @media screen and (max-width: 770px) {
-  #about .about-right-col .about-text h2, #offer .about-right-col .about-text h2 {
+  #about .about-right-col .about-text h2,
+  #offer .about-right-col .about-text h2 {
     font-size: 1.8rem;
   }
 }
 
-#about .about-right-col .about-text h3, #offer .about-right-col .about-text h3 {
+#about .about-right-col .about-text h3,
+#offer .about-right-col .about-text h3 {
   font-size: 1.8rem;
   font-style: italic;
   color: #797979;
@@ -428,13 +443,15 @@ html, body {
   font-size: 3rem;
 }
 
-.contact-row .contact-left-col, .contact-row .contact-right-col {
+.contact-row .contact-left-col,
+.contact-row .contact-right-col {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
 
 @media screen and (max-width: 770px) {
-  .contact-row .contact-left-col, .contact-row .contact-right-col {
+  .contact-row .contact-left-col,
+  .contact-row .contact-right-col {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
@@ -588,7 +605,8 @@ html, body {
   font-size: 1rem;
 }
 
-#footer .footer-row .footer-right-col .footer-info .copyright-text, #footer .footer-row .footer-right-col .footer-info .footer-logo {
+#footer .footer-row .footer-right-col .footer-info .copyright-text,
+#footer .footer-row .footer-right-col .footer-info .footer-logo {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
 }
