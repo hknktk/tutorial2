@@ -157,6 +157,12 @@ body {
   z-index: 2;
 }
 
+@media screen and (max-width: 770px) {
+  #sideNav {
+    width: 80%;
+  }
+}
+
 #sideNav li {
   list-style: none;
   margin: 50px 20px;
