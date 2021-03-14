@@ -20,21 +20,23 @@
   let mask = document.getElementById('mask');
 
   menuBtn.addEventListener('click',()=>{
-    mask.style.opacity = 1;
-    mask.style.visibility = "visible";
+    mask.classList.toggle("active");
   })
 
   mask.addEventListener('click',()=>{
     sideNav.style.right = "-250px";
-    mask.style.opacity = 0;
-    mask.style.visibility = "hidden";
+    mask.classList.toggle("active");
   });
 
   sideNav.addEventListener('click',()=>{
     sideNav.style.right = "-250px";
-    mask.style.opacity = 0;
-    mask.style.visibility = "hidden";
+  });
+
+  sideNav.addEventListener('click',()=>{
+    mask.classList.toggle("active");
   })
+
+
   
   
 }

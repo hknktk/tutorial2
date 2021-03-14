@@ -26,6 +26,11 @@ html, body {
   transition: .6s;
 }
 
+.mask.active {
+  opacity: 1;
+  visibility: visible;
+}
+
 #header {
   height: 100vh;
   background-image: url(images/background.png);
